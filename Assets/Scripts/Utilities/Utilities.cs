@@ -21,8 +21,9 @@ public class Utilities : MonoBehaviour
 
         return result;
     }
-    void Update()
+    public static Vector3 ClampMagnitude(Vector3 v, float min, float max)
     {
-        transform.position = Utilities.Wrap(transform.position, new Vector3(-10, -10, -10), new Vector3(10, 10, 10));
+        return v.normalized * Mathf.Clamp(v.magnitude, min, max);
     }
+   
 }
