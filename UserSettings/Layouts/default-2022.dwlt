@@ -14,122 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 15.333334
-    y: 478
-    width: 1402.6667
-    height: 542
+    x: 0
+    y: 42.666668
+    width: 1706.6667
+    height: 976
   m_ShowMode: 4
-  m_Title: Project
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_Title: Animator
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1402.6667
-    height: 492
-  m_MinSize: {x: 503, y: 492}
-  m_MaxSize: {x: 18097, y: 14042}
-  vertical: 0
-  controlID: 89
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1071.3334
-    y: 0
-    width: 331.33337
-    height: 492
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 14}
-  - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 265.33334
-    height: 291.33334
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 291.33334
-    width: 1071.3334
-    height: 200.66666
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,22 +37,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1402.6667
-    height: 542
-  m_MinSize: {x: 875, y: 542}
+    width: 1706.6667
+    height: 976
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,12 +69,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1402.6667
+    width: 1706.6667
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,12 +90,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 522
-    width: 1402.6667
+    y: 956
+    width: 1706.6667
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -213,18 +108,125 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 6}
   - {fileID: 10}
-  - {fileID: 5}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1706.6667
+    height: 926
+  m_MinSize: {x: 300, y: 300}
+  m_MaxSize: {x: 24288, y: 24288}
+  vertical: 0
+  controlID: 1035
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 8}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1071.3334
-    height: 492
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+    width: 825.3333
+    height: 926
+  m_MinSize: {x: 100, y: 300}
+  m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 50
+  controlID: 1036
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 825.3333
+    height: 456
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: AnimatorControllerTool
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 456
+    width: 825.3333
+    height: 250
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 706
+    width: 825.3333
+    height: 220
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,18 +240,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
   - {fileID: 11}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 825.3333
     y: 0
-    width: 1071.3334
-    height: 291.33334
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 41
+    width: 395.3333
+    height: 926
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 1091
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,18 +267,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 265.33334
+    x: 0
     y: 0
-    width: 806
-    height: 291.33334
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+    width: 395.3333
+    height: 408
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
+  - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -285,1114 +286,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: GitHub
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 1086.6667
-    y: 508
-    width: 330.33337
-    height: 471
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  progressMessageClearTime: -1
-  notificationClearTime: -1
-  timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
-  initProjectView:
-    hasCompletedInitialCheck: 1
-    isUserDataPresent: 1
-    lastCheckUserChangedEvent:
-      updatedTimeString: 2023-01-04T10:19:11.446-07:00
-      cacheType: 8
-  branchesView:
-    treeLocals:
-      IsRemote: 0
-      folders:
-        keys:
-        - Local branches
-        values:
-        - path: Local branches
-          label: Local branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Local branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Local branches
-        label: Local branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: master
-        label: master
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 1
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    treeRemotes:
-      IsRemote: 1
-      folders:
-        keys:
-        - Remote branches
-        values:
-        - path: Remote branches
-          label: Remote branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Remote branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Remote branches
-        label: Remote branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    mode: 0
-    newBranchName: 
-    scroll: {x: 0, y: 0}
-    disableDelete: 1
-    disableCreate: 1
-    lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-01-04T10:23:38.214-07:00
-      cacheType: 2
-    lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-01-04T10:19:35.135-07:00
-      cacheType: 1
-    currentBranch:
-      name: master
-      tracking: 
-    currentRemote:
-      name: 
-      url: 
-      login: 
-      user: 
-      host: 
-      function: 0
-      token: 
-    localBranches:
-    - name: master
-      tracking: 
-    remoteBranches: []
-  changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    commitBody: update
-    commitMessage: update
-    currentBranch: '[master]'
-    treeScroll: {x: 0, y: 0}
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: \
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 1
-      isUsingGlobalSelection: 1
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-01-04T10:32:43.346-07:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-01-04T10:32:47.060-07:00
-      cacheType: 6
-    lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
-  historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
-    logEntries:
-    - commitID: 72df46c20c445e9899fc8d2c4f02638fda1f54ce
-      mergeA: 
-      mergeB: 
-      authorName: phoenixgoldz
-      authorEmail: thicks@student.neumont.edu
-      commitEmail: thicks@student.neumont.edu
-      commitName: phoenixgoldz
-      summary: Initial commit
-      description: 
-      timeString: 2023-01-04T10:19:34.000-07:00
-      commitTimeString: 2023-01-04T10:19:34.000-07:00
-      changes:
-      - path: .gitattributes
-        fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\.gitignore
-        fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\.gitignore
-        projectPath: Assets\.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 2023-01-04T10:23:40.765-07:00
-      cacheType: 3
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 5
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries:
-      - commitID: 72df46c20c445e9899fc8d2c4f02638fda1f54ce
-        mergeA: 
-        mergeB: 
-        authorName: phoenixgoldz
-        authorEmail: thicks@student.neumont.edu
-        commitEmail: thicks@student.neumont.edu
-        commitName: phoenixgoldz
-        summary: Initial commit
-        description: 
-        timeString: 2023-01-04T10:19:34.000-07:00
-        commitTimeString: 2023-01-04T10:19:34.000-07:00
-        changes:
-        - path: .gitattributes
-          fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
-            Sprint\AI\UnityAI\.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .gitignore
-          fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
-            Sprint\AI\UnityAI\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\.gitignore
-          fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
-            Sprint\AI\UnityAI\Assets\.gitignore
-          projectPath: Assets\.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      statusAhead: 0
-      selectedIndex: 0
-    selectedEntry:
-      commitID: 72df46c20c445e9899fc8d2c4f02638fda1f54ce
-      mergeA: 
-      mergeB: 
-      authorName: phoenixgoldz
-      authorEmail: thicks@student.neumont.edu
-      commitEmail: thicks@student.neumont.edu
-      commitName: phoenixgoldz
-      summary: Initial commit
-      description: 
-      timeString: 2023-01-04T10:19:34.000-07:00
-      commitTimeString: 2023-01-04T10:19:34.000-07:00
-      changes:
-      - path: .gitattributes
-        fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\.gitignore
-        fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\.gitignore
-        projectPath: Assets\.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys:
-        - Assets
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: \
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 0
-      isUsingGlobalSelection: 0
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .gitattributes
-        label: .gitattributes
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .gitattributes
-          fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
-            Sprint\AI\UnityAI\.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .gitignore
-        label: .gitignore
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .gitignore
-          fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
-            Sprint\AI\UnityAI\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\.gitignore
-        label: .gitignore
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\.gitignore
-          fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
-            Sprint\AI\UnityAI\Assets\.gitignore
-          projectPath: Assets\.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    detailsScroll: {x: 0, y: 0}
-  settingsView:
-    gitPathView:
-      gitPath: C:\Users\Trevor Hicks\AppData\Local\GitHubUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\Trevor Hicks\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
-      errorMessage: 
-      resetToBundled: 0
-      resetToSystem: 0
-      changingManually: 0
-    hasRemote: 0
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-01-04T10:19:35.135-07:00
-      cacheType: 1
-    metricsEnabled: 1
-    newRepositoryRemoteUrl: 
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: 
-    scroll: {x: 0, y: 0}
-    userSettingsView:
-      gitName: phoenixgoldz
-      gitEmail: thicks@student.neumont.edu
-      newGitName: phoenixgoldz
-      newGitEmail: thicks@student.neumont.edu
-      needsSaving: 0
-      lastCheckUserChangedEvent:
-        updatedTimeString: 2023-01-04T10:19:11.446-07:00
-        cacheType: 8
-    webTimeout: 3000
-    gitTimeout: 5000
-  locksView:
-    currentRemoteHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
-    locksControl:
-      scroll: {x: 0, y: 0}
-      gitLockEntries: []
-      assets:
-        keys: []
-        values: []
-      gitStatusDictionary:
-        keys: []
-        values: []
-      selectedEntry:
-        gitLock:
-          id: 
-          path: 
-          owner:
-            name: 
-            email: 
-          lockedAtString: 
-        gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 00:00
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-01-04T10:19:35.135-07:00
-      cacheType: 1
-    lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-01-04T10:23:42.878-07:00
-      cacheType: 6
-    lockedFiles: []
-    gitStatusEntries:
-    - path: .vsconfig
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\.vsconfig
-      projectPath: .vsconfig
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\github-for-unity-1.4.0.6503.unitypackage.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\github-for-unity-1.4.0.6503.unitypackage.meta
-      projectPath: Assets\github-for-unity-1.4.0.6503.unitypackage.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins.meta
-      projectPath: Assets\Plugins.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub.meta
-      projectPath: Assets\Plugins\GitHub.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor.meta
-      projectPath: Assets\Plugins\GitHub\Editor.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\credits.txt
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\eula.txt
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\libsfw.so
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x64.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x86.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Scenes.meta
-      projectPath: Assets\Scenes.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity.meta
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Assets\Scenes\SampleScene.unity.meta
-      projectPath: Assets\Scenes\SampleScene.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\manifest.json
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Packages\manifest.json
-      projectPath: Packages\manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\packages-lock.json
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\Packages\packages-lock.json
-      projectPath: Packages\packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\AudioManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\AudioManager.asset
-      projectPath: ProjectSettings\AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ClusterInputManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\ClusterInputManager.asset
-      projectPath: ProjectSettings\ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\DynamicsManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\DynamicsManager.asset
-      projectPath: ProjectSettings\DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\EditorSettings.asset
-      projectPath: ProjectSettings\EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\InputManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\InputManager.asset
-      projectPath: ProjectSettings\InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\MemorySettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\MemorySettings.asset
-      projectPath: ProjectSettings\MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NavMeshAreas.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\NavMeshAreas.asset
-      projectPath: ProjectSettings\NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PackageManagerSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\PackageManagerSettings.asset
-      projectPath: ProjectSettings\PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Physics2DSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\Physics2DSettings.asset
-      projectPath: ProjectSettings\Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TimeManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\TimeManager.asset
-      projectPath: ProjectSettings\TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VersionControlSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\VersionControlSettings.asset
-      projectPath: ProjectSettings\VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VFXManager.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\VFXManager.asset
-      projectPath: ProjectSettings\VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\XRSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\ProjectSettings\XRSettings.asset
-      projectPath: ProjectSettings\XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\EditorUserSettings.asset
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\UserSettings\EditorUserSettings.asset
-      projectPath: UserSettings\EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st Sprint\AI\UnityAI\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    currentUsername: 
-    unlockFileMenuContent:
-      m_Text: Release Lock
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-    forceUnlockFileMenuContent:
-      m_Text: Release Lock (forced)
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-  hasRemote: 1
-  currentRemoteName: origin
-  currentBranch: master
-  currentRemoteUrl: https://github.com/phoenixgoldz/UnityAI.git
-  statusAhead: 0
-  statusBehind: 0
-  hasItemsToCommit: 0
-  isTrackingRemoteBranch: 1
-  currentBranchContent:
-    m_Text: master
-    m_Image: {fileID: 0}
-    m_Tooltip: Active branch
-  currentRemoteUrlContent:
-    m_Text: https://github.com/phoenixgoldz/UnityAI.git
-    m_Image: {fileID: 0}
-    m_Tooltip: Url of the origin remote
-  lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-01-04T10:32:43.346-07:00
-    cacheType: 1
-  lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-01-04T10:32:47.074-07:00
-    cacheType: 5
-  lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-01-04T10:32:47.060-07:00
-    cacheType: 6
-  pullButtonContent:
-    m_Text: Pull
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  pushButtonContent:
-    m_Text: Push
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  refreshButtonContent:
-    m_Text: Refresh
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  fetchButtonContent:
-    m_Text: Fetch
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
-  connections: []
-  primaryConnectionUsername: 
+    x: 0
+    y: 408
+    width: 395.3333
+    height: 518
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1402,138 +313,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 15.333334
-    y: 799.3334
-    width: 1070.3334
-    height: 179.66666
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets
-    m_Globs: []
-    m_OriginalText: 
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
-    Sprint\AI\UnityAI
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c2800000
-    m_LastClickedID: 32962
-    m_ExpandedIDs: 00000000c280000000ca9a3b
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+    x: 1220.6666
+    y: 0
+    width: 486.00012
+    height: 926
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1542,97 +339,63 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1224
-    y: 80
-    width: 330.33325
-    height: 890.3333
+    x: 0
+    y: 528.6667
+    width: 824.3333
+    height: 229
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -7434007173283171657, guid: d3359bd46bb17924da0cacaf9b6b0ff4, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.66389877
+      e01: 0
+      e02: 0
+      e03: 55.259003
+      e10: 0
+      e11: 0.66389877
+      e12: 0
+      e13: -1.866745
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: d3359bd46bb17924da0cacaf9b6b0ff4, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -7434007173283171657, guid: d3359bd46bb17924da0cacaf9b6b0ff4, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
 --- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 15.333334
-    y: 508
-    width: 264.33334
-    height: 270.33334
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1652,10 +415,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 280.6667
-    y: 508
-    width: 804
-    height: 270.33334
+    x: 0
+    y: 72.66667
+    width: 824.3333
+    height: 435
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1665,8 +428,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -174.66669, y: -26}
+      snapOffset: {x: -176, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1676,9 +439,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -222.33331}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -1880,7 +643,7 @@ MonoBehaviour:
       id: Scene View/Tilemap Palette Helper
       index: 12
       layout: 4
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_WindowGUID: fb127970da9b62a418676be3750be127
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -1890,9 +653,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -1.5402023, y: -0.33822626, z: 1.5124192}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -1.5402023, y: -0.33822626, z: 1.5124192}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1938,13 +701,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.3404401, y: -0.067058176, z: 0.024349902, w: -0.9375554}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.3404402, y: -0.0670582, z: 0.024349911, w: -0.93755573}
   m_Size:
-    m_Target: 10
+    m_Target: 9.556058
     speed: 2
-    m_Value: 10
+    m_Value: 9.556058
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1952,7 +715,7 @@ MonoBehaviour:
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.001
+    m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
@@ -1969,7 +732,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1989,10 +752,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 0
+    y: 72.66667
+    width: 824.3333
+    height: 435
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2000,13 +763,13 @@ MonoBehaviour:
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
+  m_ShowGizmos: 1
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1532, y: 769}
+  m_TargetSize: {x: 1236.5, y: 621}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_fullscreenMonitorIdx: 0
   m_playModeBehaviorIdx: 0
@@ -2015,7 +778,7 @@ MonoBehaviour:
   m_suppressRenderingForFullscreen: 0
   m_VSyncEnabled: 0
   m_PlayFocused: 0
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
@@ -2023,10 +786,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -510.6667
-    m_HBaseRangeMax: 510.6667
-    m_VBaseRangeMin: -256.33334
-    m_VBaseRangeMax: 256.33334
+    m_HBaseRangeMin: -412.1667
+    m_HBaseRangeMax: 412.1667
+    m_VBaseRangeMin: -207
+    m_VBaseRangeMax: 207
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2035,7 +798,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -2044,31 +807,31 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1532
-      height: 769
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 384.5}
+      width: 824.3333
+      height: 414
+    m_Scale: {x: 0.99999994, y: 0.99999994}
+    m_Translation: {x: 412.16666, y: 207}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -384.5
-      width: 1532
-      height: 769
+      x: -412.1667
+      y: -207.00002
+      width: 824.3334
+      height: 414.00003
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2298, y: 1185}
+  m_defaultScale: 0.99999994
+  m_LastWindowPixelSize: {x: 1236.5, y: 652.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
   m_showToolbarOnFullscreen: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2076,7 +839,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2088,10 +851,305 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 778.6667
+    width: 824.3333
+    height: 199
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 800, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Package Manager
+    m_Image: {fileID: 5076950121296946556, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 780
+    width: 924.3333
+    height: 197.66669
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 825.3334
+    y: 72.66667
+    width: 393.3333
+    height: 387
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 86e2ffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 12faffff30fbffffde5a0000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 7}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 1a22d02d07c6894469100f91efa26f1f
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 825.3334
+    y: 480.6667
+    width: 393.3333
+    height: 497
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Prefabs
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Prefabs
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Users\Trevor Hicks\Desktop\Neumont College\Second Year\1st
+    Sprint\AI\UnityAI
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: f05e0000
+    m_LastClickedID: 24304
+    m_ExpandedIDs: 00000000ae5e0000b05e0000b25e0000b45e0000b65e0000b85e0000ba5e0000bc5e0000be5e0000c05e0000c25e000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000ae5e0000b05e0000b25e0000b45e0000b65e0000b85e0000ba5e0000bc5e0000be5e0000c05e0000c25e0000c45e000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000a0680000d85a0000cc5f00000462000012620000e2600000d0600000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Agent02
+      m_OriginalName: Agent02
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 32612
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 126
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1220.6667
+    y: 72.66667
+    width: 485.00012
+    height: 905
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 258
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Navigation
+    m_Image: {fileID: 1087843850482249999, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1388.6667
+    y: 72.66667
+    width: 317
+    height: 905
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

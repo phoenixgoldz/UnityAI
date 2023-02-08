@@ -5,12 +5,10 @@ using UnityEngine;
 
 public class AutonomousAgent : Agent
 {
-    [Range(0, 3)] public float seekWeight;
-    [Range(0, 3)] public float fleeWeight;
 
-    public float wanderDistance = 1;
-    public float wanderRadius = 3;
-    public float wanderDisplacement = 5;
+    public Perception flockPerception;
+    public AutonomousAgentData data;
+    public ObstacleAvoidance obstacleAvoidance;
 
     public float wanderAngle { get; set; } = 0;
 
@@ -23,15 +21,33 @@ public class AutonomousAgent : Agent
         }
         if (gameObjects.Length > 0)
         {
-            movement.ApplyForce(Steering.Seek(this, gameObjects[0]) * seekWeight);
-            movement.ApplyForce(Steering.Flee(this, gameObjects[0]) * fleeWeight);
+            movement.ApplyForce(Steering.Seek(this, gameObjects[0]) * data.seekWeight);
+            movement.ApplyForce(Steering.Flee(this, gameObjects[0]) * data.fleeWeight);
+        }
+
+        gameObjects = flockPerception.GetGameObjects();
+
+        if (gameObjects.Length >= 1)
+        {
+            //cohesion
+            movement.ApplyForce(Steering.Cohesion(this, gameObjects) * data.cohesionWeight);
+            movement.ApplyForce(Steering.Seperation(this, gameObjects, data.separationRadius) * data.separationWeight);
+            movement.ApplyForce(Steering.Alignment(this, gameObjects) * data.alignmentWeight);
+        }
+        if (obstacleAvoidance.IsObstacleInFront())
+        {
+            Vector3 direction = obstacleAvoidance.GetOpenDirection();
+            movement.ApplyForce(Steering.CalculateSteering(this, direction) * data.obstacleWeight);
         }
         if (movement.acceleration.sqrMagnitude <= movement.maxForce * 0.1f)
         {
             movement.ApplyForce(Steering.Wander(this));
         }
 
-        transform.position = Utilities.Wrap(transform.position, new Vector3(-10, -10, -10), new Vector3(10, 10, 10));
+        Vector3 position = transform.position;
+        position = Utilities.Wrap(position, new Vector3(-20, -20, -20), new Vector3(20, 20, 20));
+        position.y = 0;
+        transform.position = position;
     }
 
 }
